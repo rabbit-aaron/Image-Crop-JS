@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jquery Plugin - Client Side Image Cropper</title>
+    <link rel="stylesheet" type="text/css" href="/lib/bootstrap/bootstrap-3.1.1/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <input id="img1" type="file" name="img1" data-provides="imgcrop" accept="image/*"/>
+    
+    <div data-provides="img1_img"></div>
+    <div data-provides="img1_can"></div>
+
+    <button class="btn btn-primary" type="button" data-provides="img1_select">Select Image</button>
+    <button class="btn btn-danger" type="button" data-provides="img1_remove">Remove Image</button>
+    
+    <link rel = "stylesheet" href="jquery.Jcrop.min.css" />
+    <script src="jquery-2.1.0.min.js"></script>
+    <script src="jquery.Jcrop.min.js"></script>
+    <script src="imgcrop-1.1.js"></script>
+    
+  </body>
+</html>
